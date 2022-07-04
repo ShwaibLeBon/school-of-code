@@ -1,0 +1,29 @@
+img {
+	width: 100%;
+}
+
+.text {
+	font-size: 32px;
+}
+
+#unique {
+	font-size: 50px;
+}
+
+.titre-principal {
+	color: #f00;
+	background-color: green;
+}
+
+.titre-secondaire {
+	color: beige;
+}
+
+body {
+	background: url('../images/art-black-and-white-controller-194511.jpg') no-repeat;
+	background-size: cover;
+}
+
+.bordure {
+	border: 5px solid #fff;
+}
