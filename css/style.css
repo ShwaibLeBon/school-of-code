@@ -20,10 +20,14 @@ img {
 }
 
 body {
-	background: url('../images/art-black-and-white-controller-194511.jpg') no-repeat;
+	/* background: url('../images/art-black-and-white-controller-194511.jpg') no-repeat; */
 	background-size: cover;
 }
 
 .bordure {
 	border: 5px solid #fff;
+}
+
+header {
+	text-align: center;
 }
