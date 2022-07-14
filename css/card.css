@@ -1,0 +1,92 @@
+body {
+	background-color: grey;
+	margin: 0;
+}
+
+.container {
+	min-height: 100vh;
+}
+
+.card {
+	width: 500px;
+}
+
+/* .grid {
+	display: grid;
+	place-items: center;
+	height: 100vh;
+} */
+
+
+/* .absolute {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+} */
+.flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.card-header {
+	background-color: #ff0000;
+	color: #ffffff;
+	padding: 5px 25px;
+	border-radius: 15px 15px 0 0;
+}
+
+.card-body {
+	background-color: rgb(255, 255, 255);
+	padding: 25px;
+}
+
+.card-body .row {
+	display: flex;
+	gap: 15px;
+}
+
+.card-body .row .mdi {
+	font-size: 72px;
+	color: #ff0000;
+}
+
+button {
+	border-radius: 5px;
+	border: none;
+	padding: 10px 24px;
+	cursor: pointer;
+}
+
+.btn-red {
+	background-color: #ff0000;
+	color: #ffffff;
+	transition: 1500ms ease;
+}
+
+.btn-red:hover {
+	transform: scale(1.2);
+}
+
+.btn-white {
+	background-color: #ffffff;
+	color: #ff0000;
+	border: 1px solid #ff0000;
+	transition: 1500ms ease;
+}
+
+.btn-white:hover {
+	background-color: #ff0000;
+	color: #ffffff;
+	border-color: #ffffff;
+}
+
+
+.card-footer {
+	padding: 25px;
+	border-top: 1px solid rgb(255, 0, 0);
+	background-color: rgb(255, 255, 255);
+	border-radius: 0 0 15px 15px;
+	text-align: center;
+}
