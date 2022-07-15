@@ -55,6 +55,7 @@ body {
 button {
 	border-radius: 5px;
 	border: none;
+	/* set borders to none */
 	padding: 10px 24px;
 	cursor: pointer;
 }
